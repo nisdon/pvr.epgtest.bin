@@ -1,4 +1,4 @@
 # pvr.epgtest.bin
 ## pvr.addon for Kodi(Matrix)
-- EPGStation対応
+- EPGStation v2対応
 - Matrix対応
