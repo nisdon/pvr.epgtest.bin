@@ -1,4 +1,37 @@
-# pvr.epgtest.bin
-## pvr.addon for Kodi(Matrix)
-- EPGStation v2対応
-- Matrix対応
+# EPG Test PVR
+KODIのPVRアドオンです。
+
+## 概要
+EPGStationをTVサーバーとして、KODI上でTV視聴、録画予約、そして録画再生をサポートします。
+
+## 特徴
+ - 予約はEPG指定、及び時間指定を作成できます。
+ - ルールとルール予約は、有効無効の切替のみできます。
+ - 録画のドロップ情報をダイアログで表示できます。
+ - 重複禁止（isOverlap）されている予約は表示されません。
+ - 番組名、エピソード情報は番組名から生成します。
+
+## 対応サーバー
+ - EPGStation v2
+
+## 対応OS
+ - Windows
+ - Raspberry Pi
+
+## 設定項目
+### 基本
+| 項目 | 機能 |
+----|----
+| WUIのURL | サーバーのURLを記述します。<br>例 HTTP://192.168.1.101:8888 |
+| timeshiftを使う | timeshiftの使用を切替えます。 |
+
+### 予約
+| 項目 | 機能 |
+----|----
+| 録画頭切れ防止 | EPGStationのallowEndLack設定を切替えます。 |
+
+### 再生
+| 項目 | 機能 |
+----|----
+| m2tsモード番号 | ライブ視聴時のモードを指定します。 |
+ 
