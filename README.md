@@ -18,6 +18,9 @@ EPGStationをTVサーバーとして、KODI上でTV視聴、録画予約、そ�
  - Windows
  - Raspberry Pi
 
+## 依存モジュール
+ - libcurl
+
 ## 設定項目
 ### 基本
 | 項目 | 機能 |
