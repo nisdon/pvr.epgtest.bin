@@ -15,6 +15,7 @@ EPGStationをTVサーバーとして、KODI上でTV視聴、録画予約、そ�
 ## 対応OS
  - Windows
  - Raspberry Pi
+ - Android
 
 ## 設定項目
 ### 基本
