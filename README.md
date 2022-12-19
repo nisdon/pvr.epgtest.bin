@@ -28,6 +28,7 @@ EPGStationをTVサーバーとして、KODI上でTV視聴、録画予約、そ�
 | 項目 | 機能 |
 ----|----
 | 録画頭切れ防止 | EPGStationのallowEndLack設定を切替えます。 |
+| 録画終了時に削除 | 終了した予約を削除します。 |
 
 ### 再生
 | 項目 | 機能 |
@@ -38,6 +39,28 @@ EPGStationをTVサーバーとして、KODI上でTV視聴、録画予約、そ�
 | 項目 | 機能 |
 ----|----
 | 非同期で取得 | 番組情報を非同期で取得します。 |
+| グループ指定 | 指定したチャンネルグループを使用します。 |
+| グループファイル | 使用するxmlファイルを指定します。 |
+
+#### グループファイル
+```xml
+<groups>
+  <group>
+	<groupName>GP1</groupName>
+	<channels>
+	  <sid>40960</sid>
+	  <sid>2056</sid>
+	</channels>
+  </group>
+  <group>
+	<groupName>GP2</groupName>
+	<channels>
+	  <sid>101</sid>
+	  <sid>103</sid>
+	</channels>
+  </group>
+</groups>
+```
 
 ### 録画
 | 項目 | 機能 |
