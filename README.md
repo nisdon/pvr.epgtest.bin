@@ -6,7 +6,7 @@ EPGStationをTVサーバーとして、KODI上でTV視聴、録画予約、そ�
 
 ## 対応サーバー
  - EPGStation v2
- - 動作確認バージョン 2.7.3
+ - 動作確認バージョン 2.9.0
 
 ## 対応OS
  - Windows
